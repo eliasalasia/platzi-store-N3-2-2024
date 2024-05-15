@@ -1,14 +1,14 @@
+// App.jsx
 
-import './index.css'
+import React from 'react';
+import LoginForm from './components/LoginForm';
 
 function App() {
- 
-
   return (
-    <>
-     
-    </>
-  )
+    <div className="app">
+      <LoginForm />
+    </div>
+  );
 }
 
-export default App
+export default App;
